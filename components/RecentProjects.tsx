@@ -9,7 +9,7 @@ const RecentProjects = () => {
       <h1 className="heading">
         Beberapa <span className="text-purple">Project Saya</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
+      <div className="flex flex-wrap items-center justify-center p-4 gap-x-20 gap-y-8 mt-10">
         {projects.map(({ id, title, des, img, iconLists, link }) => (
           <div
             key={id}
